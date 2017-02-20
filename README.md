@@ -3,6 +3,7 @@ Magento 2 - Scotch Box
 My Vagrant instance based on Scotch Box. It updates all dependencies to install Magento 2.
 
 Thanks to 
+
 https://github.com/meng-tian/magento2-scotch-box
 https://github.com/scotch-io/scotch-box
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-magento-on-ubuntu-14-04
@@ -20,10 +21,13 @@ What has been changed from Scotch Box:
 
 Database Name	
 scotchbox
+
 Database User	
 root
+
 Database Password	
 root
+
 Database Host	
 localhost
 
