@@ -21,6 +21,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get -q -y install mysql-server-5.6 mysql-client-5.6
 
 echo 'echo "always_populate_raw_post_data = -1" >> /etc/php/5.6/apache2/php.ini' | sudo -s
+echo 'echo "memory_limit = 2G" >> /etc/php/5.6/apache2/php.ini' | sudo -s
 
 # restart server after installing new php module
 echo "###### Restart apache ######"
